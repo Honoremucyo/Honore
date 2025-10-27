@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>GunShop</title>
+        <style>
+            p {
+                color: #2be234;
+            }
+            .content-box {
+                position: static;
+                left: 50px;
+                right: 20px;
+                bottom: 50px;
+                top: 20px;
+            }
+            fieldset {
+                position: static;
+                bottom: 50px;
+                top: 200px;
+                left: 150px;
+                right: 300px;
+            }
+            legend {
+                color: aqua;
+            }
+        </style>
+    </head>
+    <body style="background-image: url('file:///C:/Users/Honore/Desktop/Project/Cover.jfif'); background-repeat: no-repeat; background-size: cover;">
+        <form action="/submit" method="post">
+        <center>
+            <img src="Logo.jpg" alt="Logo">
+            <fieldset>
+                <legend><i>User informtion!</i></legend>
+                <p>E-mail:<input type="email" name="email" placeholder="Enter email adderss" required></p>
+                <p>Password:<input type="password" name="password" placeholder="Password" required></p>
+                <p><input type="submit" value="submit"></p>
+            </fieldset>
+        </center>
+    </form>
+    </body>
+</html>
